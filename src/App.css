@@ -1,0 +1,49 @@
+
+.logo {
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.background{
+  background-image: url(/public/background-still-mobile.png);
+  background-size: cover;
+  height: 100dvh;
+  width: 100dvw;
+  position: fixed;
+  top:0px
+
+}
+
+.navbar{
+  width: 40rem;
+  border-radius: 10px;
+
+
+  
+}
+@media screen and (max-width: 960px) {
+  .navbar{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 20rem;
+    border-radius: 10px;
+
+  }
+
+}
