@@ -1,6 +1,3 @@
-import { useState } from 'react'
-
-
 import './App.css'
 import {  Card, Container,  Navbar } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,8 +10,11 @@ function App() {
       <div className='background'></div>
       <div style={{display:'flex', width: '100dvw' , alignItems:"center", justifyContent:'center', marginBottom:'5rem'}}>
       <Card bg={'info'} style={{ display: 'flex', alignItems:'center', flexDirection: 'column', width: '26rem' }}>
-      <Card.Img variant="top" src="/Orange_Blue_Brain_Digital_World_Logo-removebg-preview.png" style={{aspectRatio:'square', width:'20rem', display:'flex', padding: 0, margin:0,}} />
+      <Card.Img variant="top" src="/logo-name-nosolution.png" style={{aspectRatio:'square', width:'20rem', display:'flex', padding: 0, margin:0,}} />
       <Card.Body style={{paddingBottom: 0, paddingTop: 0}}>
+      <Card.Text style={{textAlign:'center'}}>
+          DIGITAL SOLUTIONS
+        </Card.Text>
         <Card.Title style={{textAlign:'center'}} >Connect With Us</Card.Title>
         <Card.Text>
           If you would like to keep up on the latest  content or book a consultation we can be found below 
@@ -35,7 +35,7 @@ function App() {
                 alt="PHDS Logo"
               />{' '}
               Our Website
-              <p style={{fontSize:'1rem' }}>Learn more and book a consultation
+              <p style={{fontSize:'1rem' }}>Learn More and Book A Consultation
               </p>
           </Navbar.Brand>
 
@@ -55,7 +55,7 @@ function App() {
                 alt="PHDS Logo"
               />{' '}
             Facebook
-            <p style={{fontSize:'1rem'}}>Drop Us a Follow!
+            <p style={{fontSize:'1rem'}}>Drop Us a Like!
               </p>
             </Navbar.Brand>
         </Container>
